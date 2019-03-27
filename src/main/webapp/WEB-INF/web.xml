@@ -9,6 +9,7 @@
   	<display-name>HashtagServlet</display-name>
   	<servlet-name>HashtagServlet</servlet-name>
     	  	<servlet-class>last.HashtagServlet</servlet-class>
+
   </servlet>
   <servlet-mapping>
   	<servlet-name>HashtagServlet</servlet-name>

@@ -4,11 +4,12 @@
 <%@ page isELIgnored="false" %> 
 <html>
    <head>
-       </head>
 
+   </head>
    <body>
   
       <c:forEach items="${hashtags}"  var="employ" >
+
   
   <a href="NamedEntityFirst?param=${employ.desc}">
       
@@ -16,9 +17,7 @@
       </a>
 
        </c:forEach>
-
-
-       
+      
        
    </body>
 </html>
