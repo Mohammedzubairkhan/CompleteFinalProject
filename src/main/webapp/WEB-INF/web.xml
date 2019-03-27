@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         version="2.5" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"> 
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<display-name>HashtagServlet</display-name>
+  	<servlet-name>HashtagServlet</servlet-name>
+    	  	<servlet-class>last.HashtagServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HashtagServlet</servlet-name>
+  	<url-pattern>/HashtagServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <display-name>NamedEntityFirst</display-name>
+  	<servlet-name>NamedEntityFirst</servlet-name>
+  	  	  	<servlet-class>last.NamedEntityFirst</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>NamedEntityFirst</servlet-name>
+  	<url-pattern>/NamedEntityFirst</url-pattern>
+  </servlet-mapping>
+</web-app>
