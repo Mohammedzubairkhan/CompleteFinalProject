@@ -36,7 +36,6 @@ public class HashtagServlet extends HttpServlet {
 			hash_obj.setDesc((String)object.get("desc"));
 			list.add(hash_obj);
 		}
-	System.out.println(list.get(0).getDesc());
 	request.setAttribute("hashtags", list);
 	
 	client.close();
